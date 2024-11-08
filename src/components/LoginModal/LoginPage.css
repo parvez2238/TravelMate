@@ -1,0 +1,115 @@
+/* Overall container style */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+  background: linear-gradient(to right, #fef7f5, #f3f0f0); /* Soft travel-themed gradient */
+  padding: 20px;
+}
+
+/* Form styling */
+.login-form {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 100%;
+  max-width: 400px; /* Responsive width */
+  transition: all 0.3s ease-in-out;
+}
+
+/* Heading styling */
+.login-form h2 {
+  margin-bottom: 20px;
+  color: #4a4a4a; /* Darker text color for contrast */
+  text-align: center;
+}
+
+/* Input group styles */
+.input-group {
+  margin-bottom: 20px;
+}
+
+/* Label styles */
+.input-group label {
+  font-size: 14px;
+  color: #555; /* Slightly lighter text color */
+}
+
+/* Input field styles */
+.text-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+/* Input focus effect */
+.text-input:focus {
+  border-color: #fd4e03; /* Change border color on focus */
+  outline: none;
+}
+
+/* Options container styles */
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Remember me checkbox */
+.remember-me {
+  display: flex;
+  align-items: center;
+  color: #777; /* Lighter text color */
+}
+
+/* Forgot password link styles */
+.forgot-password {
+  color: #e87b07;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.forgot-password:hover {
+  color: #fa9836; /* Darker shade on hover */
+}
+
+/* Submit button styles */
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #fa4817;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #ff6c1d; /* Darker shade on hover */
+}
+
+/* Signup prompt styles */
+.signup-prompt {
+  text-align: center;
+  margin-top: 20px;
+  color: #777; /* Lighter text color */
+}
+
+/* Signup link styles */
+.signup-link {
+  color: #e64d0b;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.signup-link:hover {
+  color: #ffa387; /* Darker shade on hover */
+}

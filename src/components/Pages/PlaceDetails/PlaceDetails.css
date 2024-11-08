@@ -1,0 +1,168 @@
+/* PlaceDetails.css */
+.place-details-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.place-details-container {
+    display: flex;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.place-details-left {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.place-details-image {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.details-subsection {
+    margin-top: 20px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff5722;
+}
+
+.details-info {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to next line */
+    margin-top: 10px;
+}
+
+.details-info p {
+    display: flex;
+    align-items: center;
+    margin: 5px 10px; /* Adjust spacing between items */
+    font-size: 16px; /* Adjusted font size */
+    padding: 5px; /* Add padding for better clickability */
+}
+
+.details-info p svg {
+    margin-right: 5px; /* Spacing between icon and text */
+}
+
+.details-subsection h2,
+.details-subsection p {
+    padding-left: 10px;
+}
+
+.place-details-right {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #f9f9f9;
+}
+
+.place-details-right h2{
+    align-items: center;
+    margin: 0 auto;
+}
+
+.date-selection,
+.person-dropdown {
+    margin-bottom: 20px;
+    display: flex; /* Use flexbox for alignment */
+}
+
+.date-input,
+.dropdown-input {
+    flex: 1; /* Allow inputs to grow evenly */
+    margin-right: 20px; /* Space between input pairs */
+}
+
+.date-input:last-child,
+.dropdown-input:last-child {
+    margin-right: 0; /* Remove margin for the last input */
+}
+
+label {
+    display: block; /* Stack label above input */
+    margin-bottom: 5px; /* Space between label and input */
+    font-size: 16px; /* Label font size */
+}
+
+input[type="date"],
+select {
+    width: 20vw; /* Full width for inputs */
+    padding: 10px; /* Adjust padding */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px; /* Input font size */
+}
+
+.meals-description,
+.description {
+    margin-bottom: 20px;
+    font-size: 16px; /* Font size for descriptions */
+}
+
+.book-now-button {
+    padding: 12px 24px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+    width: 100%; /* Full width */
+    font-size: 18px; /* Button font size */
+}
+
+.book-now-button:hover {
+    background-color: #e64a19;
+}
+
+.rating-section {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ffbc00;
+}
+
+.experience-description {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    input[type="date"],
+select {
+    width: 80vw;
+    position: relative;
+    margin: 0 auto;
+}
+    .place-details-container {
+        flex-direction: column;
+    }
+    .place-details-left,
+    .place-details-right {
+        width: 100%;
+    }
+    .date-selection,
+    .person-dropdown {
+        flex-direction: column; /* Stack on small screens */
+    }
+}

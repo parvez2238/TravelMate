@@ -1,0 +1,106 @@
+.offer-container {
+  width: 100%; /* Set container width to 100% to adapt to the screen */
+  max-width: 1400px; /* Optional: maximum width for larger screens */
+  margin: 0 auto; /* Center the container */
+  padding: 40px 20px; /* Add padding to the container */
+  background-color: #f8f9fa; /* Light background color */
+}
+
+.offer-title {
+  text-align: center; /* Center the title */
+  font-size: 2rem; /* Increase font size */
+  margin-bottom: 30px; /* Add bottom margin */
+  color: #007bff; /* Primary color */
+}
+
+.offer-cards {
+  cursor: pointer;
+  display: flex;
+  gap: 20px; /* Adjust this value to control the gap between columns and rows */
+  margin: 0 auto;
+  flex-wrap: wrap;  
+  width: 95%; /* Set the width to 95% */
+}
+
+.offer-details p{
+  padding:2px ;
+  font-size: 14px;
+}
+
+.offer-info-icon{
+  padding-right: 10px;
+  font-size: 10px;
+  color: #666;
+}
+
+.offer-card {
+  background-color: #fff;  
+  border-radius: 8px;  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+  overflow: hidden;  
+  margin-bottom: 30px;  
+  flex: 1 1 calc(25% - 20px);  
+  max-width: 300px;  
+  transition: transform 0.3s;  
+}
+
+.offer-card:hover {
+  transform: scale(1.05);  
+}
+
+.offer-image {
+  width: 100%; /* Full width */
+  height: 150px; /* Fixed height for images */
+  object-fit: cover; /* Cover the area while maintaining aspect ratio */
+}
+
+.offer-details {
+  padding: 15px;  
+}
+
+.offer-details h3 {
+  font-size: 1.5rem; /* Title font size */
+  margin: 10px 0; /* Margin around title */
+  color: #333; /* Dark text color */
+}
+
+.offer-price {
+  font-size: 1.25rem; /* Price font size */
+  color: #28a745; /* Green color for price */
+  margin: 5px 0; /* Margin around price */
+}
+
+.offer-description {
+  font-size: 0.9rem; /* Smaller font size for description */
+  color: #666; /* Gray color */
+  margin-top: 10px; /* Margin at the top */
+}
+
+.offer-heading {
+  padding: 40px 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .offer-card {
+    flex: 1 1 calc(50% - 20px);  
+  }
+}
+
+@media (max-width: 480px) {
+  .offer-cards {
+    gap: 30px; /* Adjusted gap for better spacing */
+    width: 95%; /* Set the cards width to 95% */
+  }
+
+  .offer-card {
+    flex: 1 1 100%; /* Full width in mobile view */
+    max-width: none; /* Remove max-width constraint */
+    margin: 0; /* Remove margins */
+    padding: 0; /* Remove padding to fit full width */
+  }
+}

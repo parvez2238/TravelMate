@@ -1,0 +1,168 @@
+[
+  {
+      "offersData1": [
+          {
+              "imgSrc": "https://images.unsplash.com/photo-1528127269322-539801943592?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dG91cnxlbnwwfHwwfHx8MA%3D%3D",
+              "title": "Beach Getaway",
+              "price": "₹20,000",
+              "totalDays": 5,
+              "totalNights": 4,
+              "travelVia": "Airplane",
+              "activities": "Snorkeling, Beach Volleyball",
+              "meals": "Total Lunch, Dinner",
+              "description": "Relax on the beautiful beaches and enjoy various water sports.",
+              "location": "Goa, India",
+              "rating": 4.5
+          },
+          {
+              "imgSrc": "https://images.unsplash.com/photo-1524893181768-8c33e4e210db?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D",
+              "title": "Mountain Adventure",
+              "price": "₹25,000",
+              "totalDays": 6,
+              "totalNights": 5,
+              "travelVia": "Train",
+              "activities": "Hiking, Sightseeing",
+              "meals": "Total Lunch, Dinner",
+              "description": "Experience the majestic mountains and indulge in thrilling hikes.",
+              "location": "Himachal Pradesh, India",
+              "rating": 4.7
+          },
+          {
+              "imgSrc": "https://images.unsplash.com/photo-1489659429806-4069d3fcde9a?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D",
+              "title": "City Escape",
+              "price": "₹15,000",
+              "totalDays": 3,
+              "totalNights": 2,
+              "travelVia": "Airplane",
+              "activities": "Museum Tours, City Walks",
+              "meals": "Total Lunch, Dinner",
+              "description": "Discover the culture and history of the vibrant city.",
+              "location": "Delhi, India",
+              "rating": 4.2
+          },
+          {
+              "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNerNmBGJ_LILXxSSDS-x_uNBpWPbdyhWk3kccCmt-BKnukZ5Gb0IPE2b9eZLEVN6rvt4&usqp=CAU",
+              "title": "Safari Adventure",
+              "price": "₹30,000",
+              "totalDays": 7,
+              "totalNights": 6,
+              "travelVia": "Airplane",
+              "activities": "Wildlife Safari, Campfire",
+              "meals": "Total Lunch, Dinner",
+              "description": "Embark on a thrilling safari and encounter exotic wildlife.",
+              "location": "Ranthambore, India",
+              "rating": 4.8
+          },
+          {
+              "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSwh3xKZKIAALANpXgJYws_f_dSujtMxF6GG7NDKWuY-34-d5c36Hk0qpfDL59BMIoTEA&usqp=CAU",
+              "title": "Cultural Heritage Tour",
+              "price": "₹18,000",
+              "totalDays": 4,
+              "totalNights": 3,
+              "travelVia": "Train",
+              "activities": "Heritage Walks, Traditional Performances",
+              "meals": "Total Lunch, Dinner",
+              "description": "Explore the rich culture and heritage of ancient cities.",
+              "location": "Jaipur, India",
+              "rating": 4.6
+          }
+      ],
+
+      "offersData2": [
+          {
+              "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzGcHbhZDE_DiaDpV8t4NhY6iXZryId_jdCw&s",
+              "title": "Adventure in the Desert",
+              "price": "₹22,000",
+              "totalDays": 5,
+              "totalNights": 4,
+              "travelVia": "Airplane",
+              "activities": "Camel Riding, Desert Camping",
+              "meals": "Total Lunch, Dinner",
+              "description": "Experience the beauty of the desert with thrilling activities.",
+              "location": "Jaisalmer, India",
+              "rating": 4.4
+          },
+          {
+              "imgSrc": "https://images.unsplash.com/photo-1524893181768-8c33e4e210db?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D",
+              "title": "Mountain Adventure",
+              "price": "₹25,000",
+              "totalDays": 6,
+              "totalNights": 5,
+              "travelVia": "Train",
+              "activities": "Hiking, Sightseeing",
+              "meals": "Total Lunch, Dinner",
+              "description": "Experience the majestic mountains and indulge in thrilling hikes.",
+              "location": "Himachal Pradesh, India",
+              "rating": 4.7
+          },
+          {
+              "imgSrc": "https://images.unsplash.com/photo-1489659429806-4069d3fcde9a?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D",
+              "title": "City Escape",
+              "price": "₹15,000",
+              "totalDays": 3,
+              "totalNights": 2,
+              "travelVia": "Airplane",
+              "activities": "Museum Tours, City Walks",
+              "meals": "Total Lunch, Dinner",
+              "description": "Discover the culture and history of the vibrant city.",
+              "location": "Delhi, India",
+              "rating": 4.2
+          },
+          {
+              "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXIWSGF2XTLq9LxWeu92KM-S5EIPm6tLI7tZ0c1Cq-lrk6RT3fh-FMSrlFf5qGBDNsFIc&usqp=CAU",
+              "title": "Tropical Rainforest Retreat",
+              "price": "₹28,000",
+              "totalDays": 6,
+              "totalNights": 5,
+              "travelVia": "Airplane",
+              "activities": "Jungle Trekking, Bird Watching",
+              "meals": "Total Lunch, Dinner",
+              "description": "Immerse yourself in the lush greenery of the rainforest.",
+              "location": "Kerala, India",
+              "rating": 4.9
+          }
+      ],
+
+      "offersData3": [
+          {
+              "imgSrc": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/b1/e0/30/houseboat-tour.jpg?w=1200&h=1200&s=1",
+              "title": "Scenic River Cruise",
+              "price": "₹35,000",
+              "totalDays": 7,
+              "totalNights": 6,
+              "travelVia": "Boat",
+              "activities": "Sightseeing, Fishing",
+              "meals": "Total Breakfast, Lunch, Dinner",
+              "description": "Relax and enjoy beautiful scenery while cruising on a river.",
+              "location": "Kerala, India",
+              "rating": 4.6
+          },
+          {
+              "imgSrc": "https://static.toiimg.com/photo/67382132.cms",
+              "title": "Skiing in the Mountains",
+              "price": "₹40,000",
+              "totalDays": 5,
+              "totalNights": 4,
+              "travelVia": "Airplane",
+              "activities": "Skiing, Snowboarding",
+              "meals": "Total Lunch, Dinner",
+              "description": "Hit the slopes and enjoy the thrill of skiing in winter.",
+              "location": "Manali, India",
+              "rating": 4.8
+          },
+          {
+              "imgSrc": "https://cms.inspirato.com/ImageGen.ashx?image=/media/9413125/nevis_paradise-beach_beach_89a1049-copy.jpg&width=1200",
+              "title": "Island Paradise",
+              "price": "₹50,000",
+              "totalDays": 8,
+              "totalNights": 7,
+              "travelVia": "Airplane",
+              "activities": "Diving, Snorkeling",
+              "meals": "Total Breakfast, Lunch, Dinner",
+              "description": "Explore the beauty of pristine islands and vibrant marine life.",
+              "location": "Andaman Islands, India",
+              "rating": 4.9
+          }
+      ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+    {
+      "imgSrc": "https://png.pngtree.com/png-vector/20230831/ourmid/pngtree-man-avatar-image-for-profile-png-image_9197908.png",
+      "name": "Alice Johnson",
+      "rating": 5,
+      "text": "Amazing experience! The trip was well organized and enjoyable."
+    },
+    {
+      "imgSrc": "https://png.pngtree.com/png-vector/20230903/ourmid/pngtree-man-avatar-isolated-png-image_9935819.png",
+      "name": "Michael Smith",
+      "rating": 4,
+      "text": "Had a great time! The activities were fun and exciting."
+    },
+    {
+      "imgSrc": "https://static.vecteezy.com/system/resources/previews/002/275/847/non_2x/male-avatar-profile-icon-of-smiling-caucasian-man-vector.jpg",
+      "name": "Sophia Brown",
+      "rating": 5,
+      "text": "Absolutely loved it! Highly recommend this travel agency."
+    },
+    {
+      "imgSrc": "https://cdn.icon-icons.com/icons2/3708/PNG/512/man_person_people_avatar_icon_230017.png",
+      "name": "David Wilson",
+      "rating": 4,
+      "text": "Good value for money. Will book again!"
+    },
+    {
+        "imgSrc": "https://icons.veryicon.com/png/o/miscellaneous/user-avatar/user-avatar-male-5.png",
+        "name": "Alice Johnson",
+        "rating": 5,
+        "text": "Amazing experience! The trip was well organized and enjoyable."
+      },
+      {
+        "imgSrc": "https://cdn.icon-icons.com/icons2/2438/PNG/512/boy_avatar_icon_148455.png",
+        "name": "Michael Smith",
+        "rating": 4,
+        "text": "Had a great time! The activities were fun and exciting."
+      },
+      {
+        "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXtykLUFxXXxDr6hLBwypf2SIt2-Ji3Z9k3Es8Ueao-6T3GGdzz_WRfp6Vewzl-UZvixM&usqp=CAU",
+        "name": "Sophia Brown",
+        "rating": 5,
+        "text": "Absolutely loved it! Highly recommend this travel agency."
+      },
+      {
+        "imgSrc": "https://cdn1.iconfinder.com/data/icons/user-pictures/100/male3-512.png",
+        "name": "David Wilson",
+        "rating": 4,
+        "text": "Good value for money. Will book again!"
+      }
+  ]
+  
